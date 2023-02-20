@@ -1,0 +1,20 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.red {
+  color: red;
+}
+.általános {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.carousel-control-prev {
+  margin-left: 200px;
+}
+.carousel-control-next {
+  margin-right: 200px;
+}
