@@ -1,0 +1,8 @@
+Ezeket kell majd kijívtani:
+
+1. A slide-oknál az id-t 'demo'-ról valami odaillőre ki kell cserélni pl: Magyarorszag.html
+
+2.Slide képek méretei ugyanakkorák legyenek
+
+3.Átnézni hogy nem maradt-e dolog az előző oldalból
+pl: Németország zászlójánál a 'title' meg az 'alt' Porutgália
