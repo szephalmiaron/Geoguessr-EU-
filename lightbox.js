@@ -17,3 +17,9 @@ window.onload = () => {
     
     lightbox.onclick = () => lightbox.className = "";
   };
+
+
+  function playMusic(){
+    var music = new Audio('uiclick.mp3');
+    music.play();
+    }
