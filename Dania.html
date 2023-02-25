@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- !!!Minden szó ami *-ok között van az ideiglenes
+  Összes kommenten töröld ki
+  ctrl+F-el cserléd ki az összes *országot*
+  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dánia</title><!--Ország nevét ide írd be-->
+    <style>
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+      h3 {
+        text-align: center;
+      }
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <div >
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <div class="container-fluid">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active"  href="map.html"
+                  >Térkép</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="geoguessr.html"
+                  >Mi az a geoguessr?</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#quiz.html">Quiz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Keszitok.html">Készítők</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        </div>
+  </head>
+  <body>
+    <script src="lightbox.js"></script>
+    <div id="lightbox"></div>
+    <h1>Dánia</h1><!--Ország nevét ide írd be-->
+    <br />
+    <h2>Zászló:</h2>
+    <img
+      src="Zászlók/denmark.png" 
+      alt="Dánia zászlaja"
+      title="*Ország*"
+      width="750px"
+      class="zoomD center"
+    /> 
+    <br /><!--Zászló fájlt cseréld ki-->
+
+    <div class="container mt-3" >
+      <h2>Főváros</h2>
+        <div class="card">
+          <div class="card-body">
+            <h2>Koppenhága</h2>
+
+          <img src="Főváros kép/Koppenhága.png" alt="Koppenhága" title="Koppenhága" width="700px" class="zoomD rounded center">
+            </div>
+          </div>
+        </div>
+    <h2>Leghasznosabb tipp:</h2>
+    <h3>
+      Dánia táblái nagyon egyediek hiszen mindegyik tábla lekerekített.
+      <img src="Dánia/táblák.jpg" alt="dán táblák">
+      <!--Leghasznosabb tipp
+          Lehetséges hogy nincs ilyen
+      -->
+    </h3>
+
+    <h3>Rendszám</h3>
+    <h2><!--Információ az ország rendszámáról--></h2>
+    <img
+      class="zoomD rounded center"
+      src="Redszámok/denmark white.jpg"
+      alt="Dánia rendszám"
+      title="Dánia rendszám"
+      width="700px"
+    /><!--Ország nevét írd be a src, alt, title után-->
+    
+    
+    <h3>Általános megjelenés</h3>
+    <div id="ált" class="carousel slide" data-bs-ride="carousel" >
+
+        
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#ált" onclick="playMusic()" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#ált" onclick="playMusic()" data-bs-slide-to="1"></button>
+        </div>
+      
+       
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Dánia/dánia 1.jpg.crdownload" alt="Dánia" title="Dánia" class="zoomD rounded center">
+          </div>
+          <div class="carousel-item">
+            <img src="Dánia/dánia 2.jpg" alt="Dánia" title="Dánia" class="zoomD rounded center">
+          </div>
+        </div>
+      
+        
+        <button class="carousel-control-prev" type="button" onclick="playMusic()" data-bs-target="#ált" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" onclick="playMusic()" data-bs-target="#ált" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+          <!--Találd meg a megfelelő képet és szúrd be, figyelj arra hogy 1500x1000 felbontású legyen
+              cserléd ki az összes Dániaszöveget az akutális országra-->
+
+    <br />
+    <h2>ABC</h2>
+    <h3>Dánia a dán abc-t használja</h3>
+    <img
+      src="abc kép/Dán abc.gif"
+      alt="Dánia abc"
+      title="Dánia abc"
+      class="rounded center"
+      width="550px"
+    />
+    <!--Keresd meg és szúrd be az abc képet
+      cserléd ki az összes Dánia szöveget az akuális országra
+      cseréld ki az *abc fajta szöveget* az akutuális abc-re
+    -->
+    <br />
+
+    <h2>Weboldal domain:</h2>
+    <h3 class="red">.dk</h3><!--Cseréld ki az *ország domain-je* szöveget az aktuális oszág domain-ére-->
+  </body>
+</html>
