@@ -1,0 +1,17 @@
+1. kérdés: Melyik országban vannak elmosódások a térképen?
+a: Némethország
+b: Oroszország
+c: Kína
+d: Csehország
+
+2. kérdés: Melyik ország fővárosa Tallinn?
+a: Magyarország
+b: Kanada
+c: Olaszország
+d: Észtország
+
+3. kérdés: Melyik országban használnak ciril betűket?
+a:
+b:
+c:
+d:
