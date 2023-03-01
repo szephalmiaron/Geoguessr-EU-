@@ -69,7 +69,23 @@
   object-fit: cover;
 }
  
+
 .map  {
   
   align-items: center;
+}
+
+
+
+
+
+
+.bal {
+  display: block;
+  margin-left: 1%;
+}
+
+.bal2 {
+  display: block;
+  margin-left: 0%;
 }
