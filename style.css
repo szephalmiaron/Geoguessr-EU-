@@ -3,6 +3,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.left{
+
+  float: left;
+}
+
 .red {
   color: red;
 }
@@ -63,3 +69,7 @@
   object-fit: cover;
 }
  
+.map  {
+  
+  align-items: center;
+}
