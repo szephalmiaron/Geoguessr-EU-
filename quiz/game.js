@@ -13,11 +13,11 @@ let availableQuestions = []
 let questions = [
     {
         question: 'Melyik országban vannak elmosódások a térképen?',
-        choice1:'Némethország',
+        choice1:'Németország',
         choice2:'Ausztria',
         choice3:'Lengyelország',
         choice4:'Spanyolország',
-        answer: 2,
+        answer: 1,
     },
     {
         question: 'Melyik ország fővárosa Tallinn?',
@@ -40,13 +40,61 @@ let questions = [
         choice1:'Görögország',
         choice2:'Portugália',
         choice3:'Málta',
-        choice4:'Svájc',
+        choice4:'Horvátország',
+        answer: 3,
+    },
+    {
+        question: 'Melyik országban sárgák a rendszámot?',
+        choice1:'Belgium',
+        choice2:'Svédország',
+        choice3:'Dánia',
+        choice4:'Hollandia',
+        answer: 4,
+    },
+    {
+        question: 'Melyik országban nem használják a W-t?',
+        choice1:'Lettország',
+        choice2:'Szlovénia',
+        choice3:'Olaszország',
+        choice4:'Horvátország',
+        answer: 2,
+    },
+    {
+        question: 'Melyik országban van kettő kék csík a rendszámokon?',
+        choice1:'Belgium',
+        choice2:'Írország',
+        choice3:'Portugália',
+        choice4:'Franciaország',
+        answer: 4,
+    },
+    {
+        question: 'Melyik országban van egy kék és egy sárga csík a rendszámokon?',
+        choice1:'Portugália',
+        choice2:'Olaszország',
+        choice3:'Németország',
+        choice4:'Ausztria',
+        answer: 1,
+    },
+    {
+        question: 'Melyik országban van pirossal körülvéve a rendszám',
+        choice1:'Luxemburg',
+        choice2:'Magyarország',
+        choice3:'Belgium',
+        choice4:'Szlovákia',
+        answer: 3,
+    },
+    {
+        question: 'Melyik országban van pirossal körülvéve a rendszám',
+        choice1:'Luxemburg',
+        choice2:'Magyarország',
+        choice3:'Belgium',
+        choice4:'Szlovákia',
         answer: 3,
     },
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 10
 
 startGame = () => {
 
@@ -60,7 +108,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end.html')
+        return window.location.assign('end.html')
     } 
     
     questionCounter++
@@ -94,14 +142,21 @@ choices.forEach(choice =>{
 
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
-
-            selectedChoice.parentElement.classlist.add(classToApply)
+        }
+            selectedChoice.parentElement.classList.add(classToApply)
 
             setTimeout(()=> {
-                selectedChoice.parentElement.classlist.remove(classToApply)
+                selectedChoice.parentElement.classList.remove(classToApply)
                 getNewQuestion()
 
             }, 1000)
-        }
     })
 })
+
+incrementScore = num => {
+    score +=num
+    scoreText.innerText = score
+}
+
+
+startGame()
