@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <title>Belgium</title>
     <style>
       h1 {
@@ -34,10 +34,10 @@
               <a class="nav-link" href="geoguessr.html">Mi az a geoguessr?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Quiz</a>
+              <a class="nav-link" href="quiz.html">Quiz</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Készítők</a>
+              <a class="nav-link" href="Keszitok.html">Készítők</a>
             </li>
           </ul>
         </div>
@@ -59,9 +59,16 @@
     />
     <br />
 
-    <h2>Főváros</h2>
-    <h3>Brüsszel</h3>
-    <img src="Főváros kép/Brüsszel.png" class="zoomD rounded center"  title="Brüsszel" alt="Brüsszel">
+    <div class="container mt-3" >
+      <h2>Főváros</h2>
+        <div class="card">
+          <div class="card-body">
+            <h2>Brüsszel</h2>
+
+          <img src="Főváros kép/Brüsszel.png" alt="Brüsszel" title="Brüsszel" width="700px" class="zoomD rounded center">
+            </div>
+          </div>
+        </div>
     <br />
     <h2>Leghasznosabb tipp:</h2>
     <h3>
@@ -262,12 +269,14 @@
         <button
           type="button"
           data-bs-target="#ált"
+          onclick="playMusic()"
           data-bs-slide-to="0"
           class="active"
         ></button>
         <button
           type="button"
           data-bs-target="#ált"
+          onclick="playMusic()"
           data-bs-slide-to="1"
         ></button>
       </div>
@@ -294,6 +303,7 @@
       <button
         class="carousel-control-prev"
         type="button"
+        onclick="playMusic()"
         data-bs-target="#ált"
         data-bs-slide="prev"
       >
@@ -302,6 +312,7 @@
       <button
         class="carousel-control-next"
         type="button"
+        onclick="playMusic()"
         data-bs-target="#ált"
         data-bs-slide="next"
       >

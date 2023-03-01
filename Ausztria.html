@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <title>Ausztria</title>
     <style>
       h1 {
@@ -37,10 +38,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="#">Quiz</a>
+                <a class="nav-link"  href="quiz.html">Quiz</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Készítők</a>
+                <a class="nav-link" href="Keszitok.html">Készítők</a>
               </li>
             </ul>
           </div>
@@ -62,10 +63,16 @@
     />
     <br />
 
-    <h2>Főváros</h2>
-    <h3>Bécs</h3>
-    <img src="Főváros kép/Bécs.png" alt="Bécs" title="Bécs" class="zoomD rounded center">
-    <br />
+    <div class="container mt-3" >
+      <h2>Főváros</h2>
+        <div class="card">
+          <div class="card-body">
+            <h2>Bécs</h2>
+
+          <img src="Főváros kép/Bécs.png" alt="Bécs" title="Bécs" width="700px" class="zoomD rounded center">
+            </div>
+          </div>
+        </div>
     <h2>Leghasznosabb tipp:</h2>
     <h3>
       Ausztriának a várostáblái nagyon egyediek. Minden várostábla körül van véve egy fém kerettel. 
@@ -86,8 +93,8 @@
 
         
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#ált" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#ált" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#ált" onclick="playMusic()" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#ált" onclick="playMusic()" data-bs-slide-to="1"></button>
         </div>
       
         
@@ -101,10 +108,10 @@
         </div>
       
         
-        <button class="carousel-control-prev" type="button" data-bs-target="#ált" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" onclick="playMusic()" data-bs-target="#ált" data-bs-slide="prev">
           <span class="carousel-control-prev-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#ált" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" onclick="playMusic()" data-bs-target="#ált" data-bs-slide="next">
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
