@@ -1,0 +1,74 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.red {
+  color: red;
+}
+.általános {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.carousel-control-prev {
+  margin-left: 200px;
+  
+}
+.carousel-control-next {
+  margin-right: 200px;
+  
+}
+
+
+#lightbox {
+  
+  position: fixed; z-index: 999;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+ 
+  
+  background: rgba(0, 0, 0, 0.5);
+ 
+ 
+  display: flex;
+  align-items: center;
+  align-items: center;
+ 
+  
+  visibility: hidden;
+  opacity: 0;
+ 
+  
+  transition: opacity ease 0.4s;
+}
+ 
+
+#lightbox.show {
+  visibility: visible;
+  opacity: 1;
+}
+ 
+
+#lightbox img {
+ 
+  width: 80%;
+  height: fit-content;
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  object-fit: cover;
+}
+ 
+.bal {
+  display: block;
+  margin-left: 1%;
+}
+
+.bal2 {
+  display: block;
+  margin-left: 0%;
+}
