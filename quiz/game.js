@@ -13,7 +13,7 @@ let availableQuestions = []
 let questions = [
     {
         question: 'Melyik országban vannak elmosódások a térképen?',
-        choice1:'Némethország',
+        choice1:'Németország',
         choice2:'Ausztria',
         choice3:'Lengyelország',
         choice4:'Spanyolország',
@@ -108,11 +108,11 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('')
+        return window.location.assign('end.html')
     } 
     
     questionCounter++
-    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+    progressText.innerText = `Kérdés ${questionCounter} a ${MAX_QUESTIONS}-ből`
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
     
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
