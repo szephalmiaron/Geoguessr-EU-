@@ -13,7 +13,7 @@ let availableQuestions = []
 let questions = [
     {
         question: 'Melyik országban vannak elmosódások a térképen?',
-        choice1:'Németország',
+        choice1:'Némethország',
         choice2:'Ausztria',
         choice3:'Lengyelország',
         choice4:'Spanyolország',
@@ -108,7 +108,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('end.html')
+        return window.location.assign('')
     } 
     
     questionCounter++
