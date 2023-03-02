@@ -117,3 +117,11 @@ p{
   display: block;
   margin-left: 0%;
 }
+
+.jobb{
+  float: right;
+}
+
+.fel{
+  padding: 5%;
+}
