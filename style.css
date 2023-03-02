@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  font-family: 'roboto';
+}
+
+body{
+    background-color: rgb(29, 26, 26);
+    
+}
+.card{
+  background-color: rgb(29, 26, 26);
+}
+
+h1{
+  color: white;
+}
+h2{
+  color: white;
+}
+
+h3{
+  color: white;
+}
+
+p{
+  color: white;
+}
 .center {
   display: block;
   margin-left: auto;
