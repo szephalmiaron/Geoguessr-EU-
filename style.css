@@ -117,3 +117,9 @@ p{
   display: block;
   margin-left: 0%;
 }
+
+
+img:hover{
+  cursor: pointer;
+
+}
