@@ -118,10 +118,17 @@ p{
   margin-left: 0%;
 }
 
+
+
+img:hover{
+  cursor: pointer;
+
+
 .jobb{
   float: right;
 }
 
 .fel{
   padding: 5%;
+
 }
