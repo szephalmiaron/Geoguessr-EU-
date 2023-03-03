@@ -105,7 +105,10 @@ p{
 
 
 
-
+.tableCenter{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .bal {
@@ -123,7 +126,7 @@ p{
 img:hover{
   cursor: pointer;
 
-
+}
 .jobb{
   float: right;
 }
@@ -131,4 +134,8 @@ img:hover{
 .fel{
   padding: 5%;
 
+}
+
+tbody{
+  color: white;
 }
