@@ -26,6 +26,9 @@ h3{
 p{
   color: white;
 }
+ul{
+  color: white;
+}
 .center {
   display: block;
   margin-left: auto;
@@ -136,6 +139,8 @@ img:hover{
 
 }
 
+
+
 tbody{
   color: white;
 }
@@ -144,4 +149,6 @@ img:hover{
   scale: 1.02;
   transition: 100ms;
 
+.white{
+  color: white;
 }

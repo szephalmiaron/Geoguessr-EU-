@@ -56,7 +56,7 @@ let questions = [
         choice1:'Lettország',
         choice2:'Szlovénia',
         choice3:'Olaszország',
-        choice4:'Horvátország',
+        choice4:'Németország',
         answer: 2,
     },
     {
@@ -76,7 +76,7 @@ let questions = [
         answer: 1,
     },
     {
-        question: 'Melyik országban van pirossal körülvéve a rendszám',
+        question: 'Melyik országban van pirossal körülvéve a rendszám?',
         choice1:'Luxemburg',
         choice2:'Magyarország',
         choice3:'Belgium',
@@ -84,12 +84,12 @@ let questions = [
         answer: 3,
     },
     {
-        question: 'Melyik országban van pirossal körülvéve a rendszám',
-        choice1:'Luxemburg',
-        choice2:'Magyarország',
-        choice3:'Belgium',
-        choice4:'Szlovákia',
-        answer: 3,
+        question: 'Melyik ország nem tagja az Európai Uniónak?',
+        choice1:'Málta',
+        choice2:'Svájc',
+        choice3:'Bulgária',
+        choice4:'Finnország',
+        answer: 2,
     },
 ]
 
