@@ -26,6 +26,9 @@ h3{
 p{
   color: white;
 }
+ul{
+  color: white;
+}
 .center {
   display: block;
   margin-left: auto;
@@ -105,7 +108,10 @@ p{
 
 
 
-
+.tableCenter{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .bal {
@@ -118,10 +124,27 @@ p{
   margin-left: 0%;
 }
 
+
+
+img:hover{
+  cursor: pointer;
+
+}
 .jobb{
   float: right;
 }
 
 .fel{
   padding: 5%;
+
+}
+
+
+
+tbody{
+  color: white;
+}
+
+.white{
+  color: white;
 }
