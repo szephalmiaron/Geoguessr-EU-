@@ -26,6 +26,9 @@ h3{
 p{
   color: white;
 }
+ul{
+  color: white;
+}
 .center {
   display: block;
   margin-left: auto;
@@ -142,3 +145,6 @@ tbody{
   color: white;
 }
 
+.white{
+  color: white;
+}
