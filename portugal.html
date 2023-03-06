@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
     <title>Portugália</title>
     <style>
       h1 {
@@ -23,33 +23,28 @@
     />
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    
   </head>
   <body>
-    <div >
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-          <div class="container-fluid">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active"  href="/"
-                  >Térkép</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="geoguessr.html"
-                  >Mi az a geoguessr?</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  href="quiz/quiz.html">Quiz</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Keszitok.html">Készítők</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <div>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="/">Térkép</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="geoguessr.html">Mi az a geoguessr?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quiz/quiz.html">Quiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Keszitok.html">Készítők</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+    </div>
     <script src="lightbox.js"></script>
     <div id="lightbox"></div>
     <h1>Portugália</h1>
@@ -64,16 +59,21 @@
     />
     <br />
 
-  
-    <div class="container mt-3" >
+    <div class="container mt-3">
       <h2>Főváros</h2>
-        <div class="card">
-          <div class="card-body">
-            <h2>Lisszabon</h2>
-          <img src="Főváros kép/Liszabon.png" alt="Lisszabon" title="Lisszabon" width="700" class="zoomD rounded center">
-            </div>
-          </div>
+      <div class="card">
+        <div class="card-body">
+          <h2>Lisszabon</h2>
+          <img
+            src="Főváros kép/Liszabon.png"
+            alt="Lisszabon"
+            title="Lisszabon"
+            width="700"
+            class="zoomD rounded center"
+          />
         </div>
+      </div>
+    </div>
     <h2>Leghasznosabb tipp:</h2>
     <h3>
       Portugália a szokáos Európai Uniós rendszámot használja, viszont egy sárga
@@ -88,51 +88,81 @@
     />
     <h2>Telefonszámok</h2>
     <h3>
-      A portugál telefonszámok mindig 9-el kezdődnek, és az után következő számok az <br>
-       alábbi képen látható módon helyhez kötöttek.
+      A portugál telefonszámok mindig 9-el kezdődnek, és az után következő
+      számok az <br />
+      alábbi képen látható módon helyhez kötöttek.
     </h3>
     <img
       src="Telefonszámok/portugal.png"
       alt="Portugál Telefonszámok"
       title="Portugál Telefonszámok"
-      class=" center"
-      style="max-width: 300px;"
+      class="center"
+      style="max-width: 300px"
     />
-    <br>
+    <br />
     <h3>Általános megjelenés</h3>
-    <div id="ált" class="carousel slide" data-bs-ride="carousel" >
-
-        
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#ált" onclick="playMusic()" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#ált" onclick="playMusic()" data-bs-slide-to="1"></button>
-        </div>
-      
-       
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="általános kép/portugal 1.png" alt="Portugália 1" class="zoomD rounded center">
-          </div>
-          <div class="carousel-item">
-            <img src="általános kép/portugal 2.png" alt="Portugália 2" class="zoomD rounded center">
-          </div>
-        </div>
-      
-        
-        <button class="carousel-control-prev" type="button" onclick="playMusic()" data-bs-target="#ált" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" onclick="playMusic()" data-bs-target="#ált" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
+    <div id="ált" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#ált"
+          onclick="playMusic()"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#ált"
+          onclick="playMusic()"
+          data-bs-slide-to="1"
+        ></button>
       </div>
 
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="általános kép/portugal-1.png"
+            alt="Portugália 1"
+            class="zoomD rounded center"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="általános kép/portugal-2.png"
+            alt="Portugália 2"
+            class="zoomD rounded center"
+          />
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        onclick="playMusic()"
+        data-bs-target="#ált"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        onclick="playMusic()"
+        data-bs-target="#ált"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
 
     <br />
     <h2>ABC</h2>
     <h3>Portugália latin abc-t használ.</h3>
-   
-    <table class="table tableCenter" style="color: white; width: 70%; text-align: center; align-items: center;">
+
+    <table
+      class="table tableCenter"
+      style="color: white; width: 70%; text-align: center; align-items: center"
+    >
       <tbody>
         <tr>
           <th>A a</th>
@@ -144,7 +174,6 @@
           <th>G g</th>
         </tr>
         <tr>
-          
           <th>H h</th>
           <th>I i</th>
           <th>J j</th>
@@ -152,11 +181,8 @@
           <th>M m</th>
           <th>N n</th>
           <th>O o</th>
-          
         </tr>
         <tr>
-          
-          
           <th>P p</th>
           <th>Q q</th>
           <th>R r</th>
@@ -165,16 +191,13 @@
           <th>U u</th>
           <th>V v</th>
         </tr>
-        
+
         <tr>
-          
           <th>W w</th>
           <th>X x</th>
           <th>Z z</th>
         </tr>
-        
       </tbody>
-    
     </table>
     <br />
 
