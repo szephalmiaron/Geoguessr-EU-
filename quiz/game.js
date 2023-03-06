@@ -12,7 +12,7 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'Melyik országban vannak elmosódások a térképen?',
+        question: 'Melyik országban gyakran található elmosódás?',
         choice1:'Németország',
         choice2:'Ausztria',
         choice3:'Lengyelország',
@@ -47,7 +47,7 @@ let questions = [
         question: 'Melyik országban sárgák a rendszámot?',
         choice1:'Belgium',
         choice2:'Svédország',
-        choice3:'Dánia',
+        choice3:'Németország',
         choice4:'Hollandia',
         answer: 4,
     },
