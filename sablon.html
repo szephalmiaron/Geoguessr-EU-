@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <!-- !!!Minden szó ami *-ok között van az ideiglenes
@@ -9,7 +8,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>*Ország neve*</title><!--Ország nevét ide írd be-->
+    <title>*Ország neve*</title>
+    <!--Ország nevét ide írd be-->
     <style>
       h1 {
         text-align: center;
@@ -27,56 +27,60 @@
     />
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <div >
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-          <div class="container-fluid">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active"  href="map.html"
-                  >Térkép</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="geoguessr.html"
-                  >Mi az a geoguessr?</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  href="#quiz.html">Quiz</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Keszitok.html">Készítők</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <div>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="map.html">Térkép</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="geoguessr.html">Mi az a geoguessr?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quiz.html">Quiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Keszitok.html">Készítők</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+    </div>
   </head>
   <body>
     <script src="lightbox.js"></script>
     <div id="lightbox"></div>
-    <h1>*Ország neve*</h1><!--Ország nevét ide írd be-->
+    <h1>*Ország neve*</h1>
+    <!--Ország nevét ide írd be-->
     <br />
     <h2>Zászló:</h2>
     <img
-      src="Zászlók/*ország neve*" 
+      src="Zászlók/*ország neve*"
       alt="*Ország* zászlaja"
       title="*Ország*"
       width="750"
       class="zoomD center"
-    /> 
+    />
     <br /><!--Zászló fájlt cseréld ki-->
 
-    <div class="container mt-3" >
+    <div class="container mt-3">
       <h2>Főváros</h2>
-        <div class="card">
-          <div class="card-body">
-            <h2>*Főváros*</h2>
+      <div class="card">
+        <div class="card-body">
+          <h2>*Főváros*</h2>
 
-          <img src="Főváros kép/*Fováros*.png" alt="*Főváros*" title="*Főváros*" width="700" class="zoomD rounded center">
-            </div>
-          </div>
-        </div> <!--Főváros nevét írd be a src, alt, title után-->
+          <img
+            src="Főváros kép/*Fováros*.png"
+            alt="*Főváros*"
+            title="*Főváros*"
+            width="700"
+            class="zoomD rounded center"
+          />
+        </div>
+      </div>
+    </div>
+    <!--Főváros nevét írd be a src, alt, title után-->
 
     <h2>Leghasznosabb tipp:</h2>
     <h3>
@@ -102,38 +106,67 @@
       src="Telefonszámok/*ország*"
       alt="*Ország* Telefonszámok"
       title="*Ország* Telefonszámok"
-      class=" center"
+      class="center"
     /><!--Az ország telefonszámaival kapcsolatos képet ide szúrd be
           Lehetséges hogy nincs ilyen kép-->
-    <br>
+    <br />
     <h3>Általános megjelenés</h3>
-    <div id="ált" class="carousel slide" data-bs-ride="carousel" >
-
-        
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#ált" onclick="playMusic()" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#ált" onclick="playMusic()" data-bs-slide-to="1"></button>
-        </div>
-      
-       
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="általános kép/*ország 1*" alt="*ország 1*" title="*ország 1*" class="zoomD rounded center">
-          </div>
-          <div class="carousel-item">
-            <img src="általános kép/*ország 2*" alt="*ország 2*" title="*ország 2*" class="zoomD rounded center">
-          </div>
-        </div>
-      
-        
-        <button class="carousel-control-prev" type="button" onclick="playMusic()" data-bs-target="#ált" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" onclick="playMusic()" data-bs-target="#ált" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
+    <div id="ált" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#ált"
+          onclick="playMusic()"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#ált"
+          onclick="playMusic()"
+          data-bs-slide-to="1"
+        ></button>
       </div>
-          <!--Találd meg a megfelelő képet és szúrd be, figyelj arra hogy 1500x1000 felbontású legyen
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="általános kép/*ország 1*"
+            alt="*ország 1*"
+            title="*ország 1*"
+            class="zoomD rounded center"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="általános kép/*ország 2*"
+            alt="*ország 2*"
+            title="*ország 2*"
+            class="zoomD rounded center"
+          />
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        onclick="playMusic()"
+        data-bs-target="#ált"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        onclick="playMusic()"
+        data-bs-target="#ált"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <!--Találd meg a megfelelő képet és szúrd be, figyelj arra hogy 1500x1000 felbontású legyen
               cserléd ki az összes *ország* szöveget az akutális országra-->
 
     <br />
@@ -152,7 +185,8 @@
     -->
     <br />
 
-    <h2>Weboldal domain:</h2>
-    <h3 class="red">.*ország domain-je*</h3><!--Cseréld ki az *ország domain-je* szöveget az aktuális oszág domain-ére-->
+    <h2>Top level domain:</h2>
+    <h3 class="red">.*ország domain-je*</h3>
+    <!--Cseréld ki az *ország domain-je* szöveget az aktuális oszág domain-ére-->
   </body>
 </html>
