@@ -12,6 +12,10 @@ body{
   background-color: rgb(29, 26, 26);
 }
 
+th{
+  color: white;
+}
+
 h1{
   color: white;
   padding-left: 2rem;
