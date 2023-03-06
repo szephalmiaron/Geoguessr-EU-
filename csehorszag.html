@@ -1,12 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
     <title>Csehország</title>
     <style>
       h1 {
@@ -25,59 +23,58 @@
     />
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    
   </head>
   <body>
-    <div >
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-          <div class="container-fluid">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active"  href="/"
-                  >Térkép</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="geoguessr.html"
-                  >Mi az a geoguessr?</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"  href="quiz/quiz.html">Quiz</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Keszitok.html">Készítők</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <div>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="/">Térkép</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="geoguessr.html">Mi az a geoguessr?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quiz/quiz.html">Quiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Keszitok.html">Készítők</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+    </div>
     <script src="lightbox.js"></script>
     <div id="lightbox"></div>
     <h1>Csehország</h1>
     <br />
     <h2>Zászló:</h2>
     <img
-      src="Zászlók/czechia.png" 
+      src="Zászlók/czechia.png"
       alt="Csehország zászlaja"
       title="Csehország"
       width="750"
       class="zoomD center"
-    /> 
+    />
     <br />
 
-    <div class="container mt-3" >
+    <div class="container mt-3">
       <h2>Főváros</h2>
-        <div class="card">
-          <div class="card-body">
-            <h2>Prága</h2>
+      <div class="card">
+        <div class="card-body">
+          <h2>Prága</h2>
 
-          <img src="Főváros kép/Prága.png" alt="Prága" title="Prága" width="700" class="zoomD rounded center">
-            </div>
-          </div>
-        </div> 
-
-  
+          <img
+            src="Főváros kép/Prága.png"
+            alt="Prága"
+            title="Prága"
+            width="700"
+            class="zoomD rounded center"
+          />
+        </div>
+      </div>
+    </div>
 
     <h3>Rendszám</h3>
     <h2></h2>
@@ -89,42 +86,72 @@
       width="700"
     />
     <h2>Telefonszámok</h2>
-    <h3>
-     A cseh telefonszámok +420-al keződnek.
-    </h3>
-    <br>
+    <h3>A cseh telefonszámok +420-al keződnek.</h3>
+    <br />
     <h3>Általános megjelenés</h3>
-    <div id="ált" class="carousel slide" data-bs-ride="carousel" >
-
-        
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#ált" onclick="playMusic()" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#ált" onclick="playMusic()" data-bs-slide-to="1"></button>
-        </div>
-      
-       
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="általános kép/cseh 1.png" alt="cseh 1" title="cseh 1" class="zoomD rounded center">
-          </div>
-          <div class="carousel-item">
-            <img src="általános kép/cseh 2.png" alt="cseh 2" title="cseh 2" class="zoomD rounded center">
-          </div>
-        </div>
-      
-        
-        <button class="carousel-control-prev" type="button" onclick="playMusic()" data-bs-target="#ált" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" onclick="playMusic()" data-bs-target="#ált" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
+    <div id="ált" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#ált"
+          onclick="playMusic()"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#ált"
+          onclick="playMusic()"
+          data-bs-slide-to="1"
+        ></button>
       </div>
-        
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="általános kép/cseh 1.png"
+            alt="cseh-2"
+            title="cseh 1"
+            class="zoomD rounded center"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="általános kép/cseh-2.png"
+            alt="cseh-2"
+            title="cseh-2"
+            class="zoomD rounded center"
+          />
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        onclick="playMusic()"
+        data-bs-target="#ált"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        onclick="playMusic()"
+        data-bs-target="#ált"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
     <br />
     <h2>ABC</h2>
     <h3>Csehország a cseh abc-t használja</h3>
-    <table class="table tableCenter" style="color: white; width: 70%; text-align: center; align-items: center;">
+    <table
+      class="table tableCenter"
+      style="color: white; width: 70%; text-align: center; align-items: center"
+    >
       <tbody>
         <tr>
           <th>A a</th>
@@ -133,72 +160,63 @@
           <th>C c</th>
           <th>Č č</th>
         </tr>
-       
+
         <tr>
-          
           <th>D d</th>
           <th>Ď ď</th>
           <th>E e</th>
           <th>É é</th>
           <th>Ě ě</th>
-          
         </tr>
-       
+
         <tr>
           <th>F f</th>
           <th>G g</th>
           <th>H h</th>
           <th>Ch ch</th>
           <th>I i</th>
-          
         </tr>
-       
+
         <tr>
           <th>Í í</th>
           <th>J j</th>
           <th>K k</th>
           <th>L l</th>
           <th>M m</th>
-          
         </tr>
-       
-       
+
         <tr>
           <th>N n</th>
           <th>Ň ň</th>
           <th>O o</th>
           <th>Ó ó</th>
           <th>P p</th>
-          
         </tr>
-       
+
         <tr>
           <th>Q q</th>
           <th>R r</th>
           <th>Ŕ ŕ</th>
           <th>S s</th>
           <th>Š š</th>
-         
         </tr>
-       
+
         <tr>
           <th>T t</th>
           <th>Ť ť</th>
           <th>U u</th>
           <th>Ů ů</th>
           <th>Ú ú</th>
-          
         </tr>
-       
+
         <tr>
           <th>V v</th>
           <th>W w</th>
           <th>X x</th>
           <th>Y y</th>
           <th>Ý ý</th>
-          
         </tr>
-       
+
         <tr>
           <th>Z z</th>
           <th>Ž ž</th>
@@ -206,11 +224,9 @@
           <th></th>
           <th></th>
         </tr>
-       
       </tbody>
-    
     </table>
-    
+
     <br />
 
     <h2>Weboldal domain:</h2>
